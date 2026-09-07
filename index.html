@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Vinayaga Buildings home">
-      <img src="https://www.figma.com/api/mcp/asset/ea11421c-3577-497d-9dea-4bc0071b86bd.png" alt="Vinayaga Buildings">
+      <img src="assets/images/header-logo.webp" alt="Vinayaga Buildings">
     </a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
     <nav id="main-nav" class="main-nav" aria-label="Main navigation">
@@ -23,7 +23,7 @@
 
   <main>
     <section id="home" class="hero section-shell">
-      <div class="hero-art"><div class="outline one"></div><div class="outline two"></div><div class="outline three"></div><img src="https://www.figma.com/api/mcp/asset/ee10e6af-f9a0-4a4d-b6f3-9023bba2cfca.png" alt="Modern residence designed and constructed by Vinayaga Buildings"></div>
+      <div class="hero-art"><div class="outline one"></div><div class="outline two"></div><div class="outline three"></div><img src="assets/images/hero-building.webp" alt="Modern residence designed and constructed by Vinayaga Buildings"></div>
       <div class="hero-copy">
         <h1>Building Dreams,<small>one space at a time…</small></h1>
         <p>With 9+ years of excellence in construction, we turn ideas into enduring realities. From premium residences to smart commercial spaces, Vinayaga Buildings delivers quality-driven, vastu-compliant, and budget-friendly construction—crafted to last and designed to inspire.</p>
@@ -63,15 +63,28 @@
       </div>
     </section>
 
-    <section id="projects" class="projects section-shell">
-      <div class="project-copy"><h2>Contemporary Style Residential Building</h2><p>This 4 BHK, three-storey residence features smart space planning and modern design for effortless living.</p><p>Constructed with superior materials and skilled execution to deliver durability, comfort, and timeless appeal.</p><span class="pill">2900 Sq. Ft.</span><span class="pill">Periyanaickenpalayam, Coimbatore</span></div>
-      <div class="project-gallery"><img class="large" src="https://www.figma.com/api/mcp/asset/9ddbf27e-65f9-4cb7-8796-d693b4cc4f73.png" alt="Contemporary residential building"><img src="https://www.figma.com/api/mcp/asset/56f10977-9564-430a-82ae-c94fae5a2120.png" alt="Residence exterior detail"><img src="https://www.figma.com/api/mcp/asset/7556458b-83eb-49e9-9f29-6db0088df25e.png" alt="Residence construction detail"></div>
+    <section id="projects" class="projects section-shell" aria-roledescription="carousel" aria-label="Featured projects">
+      <div class="project-track" aria-live="polite">
+        <article class="project-slide active">
+          <div class="project-copy"><h2>Contemporary Style Residential Building</h2><p>This 4 BHK, three-storey residence features smart space planning and modern design for effortless living.</p><p>Constructed with superior materials and skilled execution to deliver durability, comfort, and timeless appeal.</p><span class="pill">2900 Sq. Ft.</span><span class="pill location-pill">Periyanaickenpalayam, Coimbatore</span></div>
+          <div class="project-gallery"><img class="large" src="assets/images/contemporary-1.webp" alt="Contemporary residence exterior"><img src="assets/images/contemporary-2.webp" alt="Contemporary residence interior"><img src="assets/images/contemporary-3.webp" alt="Contemporary residence interior detail"></div>
+        </article>
+        <article class="project-slide" aria-hidden="true">
+          <div class="project-copy"><h2>Elegant Residential Building</h2><p>A modern 3 BHK, two-storey home with a well-planned layout, designed for comfort and functionality.</p><p>Built with premium materials and expert craftsmanship to ensure long-lasting quality and style.</p><span class="pill">2000 Sq. Ft.</span><span class="pill location-pill">Periyanaickenpalayam, Coimbatore</span></div>
+          <div class="project-gallery"><img class="large" src="assets/images/elegant-1.webp" alt="Elegant residence exterior"><img src="assets/images/elegant-2.webp" alt="Elegant residence interior"><img src="assets/images/elegant-3.webp" alt="Elegant residence interior detail"></div>
+        </article>
+        <article class="project-slide" aria-hidden="true">
+          <div class="project-copy"><h2>Modern Farm House</h2><p>This 4 BHK modern farmhouse, designed across two storeys, blends rustic charm with contemporary comfort through thoughtful planning and open living spaces.</p><p>Built with quality materials and expert craftsmanship to create a warm, durable, and timeless home.</p><span class="pill">2500 Sq. Ft.</span><span class="pill location-pill">Siddhar Kovil, Salem</span></div>
+          <div class="project-gallery"><img class="large" src="assets/images/farmhouse-1.webp" alt="Modern farmhouse exterior"><img src="assets/images/farmhouse-2.webp" alt="Modern farmhouse interior"><img src="assets/images/farmhouse-3.webp" alt="Modern farmhouse detail"></div>
+        </article>
+      </div>
+      <div class="project-controls"><button class="project-prev" type="button" aria-label="Previous project">←</button><div class="project-dots"><button class="active" data-go="0" aria-label="Show project 1"></button><button data-go="1" aria-label="Show project 2"></button><button data-go="2" aria-label="Show project 3"></button></div><button class="project-next" type="button" aria-label="Next project">→</button></div>
     </section>
   </main>
 
   <footer id="contact" class="footer section-shell">
     <div class="contact"><h2>Contact Us</h2><a href="tel:+919787049252">☎ <span>+91 - 978 704 9252</span></a><a href="mailto:info@vinayagabuildings.com">✉ <span>info@vinayagabuildings.com</span></a><a href="https://www.vinayagabuildings.com">◎ <span>www.vinayagabuildings.com</span></a><a href="https://maps.google.com/?q=123%2F1%2C+RV+Nagar%2C+Periyanaickenpalayam%2C+Coimbatore+641020" target="_blank" rel="noopener">● <span>123/1, RV Nagar,<br>Periyanaickenpalayam,<br>Coimbatore - 641020</span></a></div>
-    <img class="footer-mark" src="https://www.figma.com/api/mcp/asset/0c409a53-90db-4e86-b556-004fa2da1998.png" alt="Vinayaga Buildings logo">
+    <img class="footer-mark" src="assets/images/footer-logo.webp" alt="Vinayaga Buildings logo">
     <div class="footer-bottom"><small>© Vinayaga Buildings. 2026. All rights reserved.</small><div class="social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="https://wa.me/919787049252" aria-label="WhatsApp">w</a><a href="#" aria-label="LinkedIn">in</a></div></div>
   </footer>
   <a class="whatsapp" href="https://wa.me/919787049252?text=Hello%20Vinayaga%20Buildings%2C%20I%20would%20like%20a%20construction%20quote." aria-label="Chat on WhatsApp">Chat</a>
